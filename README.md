@@ -18,13 +18,13 @@ and manage their shopping experience seamlessly.
 
  #Getting Started
  1. Clone the repo
- git clone https://github.com/yourusername/e-mart.git
-  cd e-mart
+ **git clone https://github.com/yourusername/e-mart.git**
+  **cd e-mart**
 
 2. Setup Backend
-cd ecommerce-backend
-npm install
-Create a .env file in ecommerce-backend:
+**cd ecommerce-backend**
+**npm install**
+**Create a .env file in ecommerce-backend:**
 
 PORT=5000,
 MONGODB_URI=your_mongodb_uri,
@@ -34,11 +34,11 @@ CLOUDINARY_API_KEY=your_key,
 CLOUDINARY_API_SECRET=your_secret,
 
 3. Setup Frontend
-   cd ecommerce-frontend
-   npm install
+   **cd ecommerce-frontend**
+   **npm install**
 
-4.Create a .env file in ecommerce-frontend:
+ **Create a .env file in ecommerce-frontend:**
 VITE_GOOGLE_CLIENT_ID=your_google_client_id
 
 5.To start the project 
- npm run dev
+  **npm run dev**
